@@ -1,0 +1,108 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title slot="start">
+        <div>
+          <ion-text> {{"tabs.home" | translate}} </ion-text>
+        </div>
+      </ion-title>
+      <ion-button (click)="toCart()" slot="end" fill="clear" shape="round">
+        <img src="../../../assets/Icon&Svg/1.home/svg/cart.svg" alt="">
+      </ion-button>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <div class="container">
+
+      <ion-item lines="none" class="profile" button="true" (click)="profile()">
+        <div class="image" slot="start">
+          <img src="../../../assets/photo_2021-06-08_13-53-51.jpg" />
+        </div>
+        <ion-label>
+          <p>{{ "account_page.hello" | translate}}</p>
+          <h2>Kareem Adel</h2>
+        </ion-label>
+        <ion-label slot="end">
+          <img src="../../../assets/Icon&Svg/6.profile/svg/arrow.svg" alt="">
+        </ion-label>
+      </ion-item>
+
+      <h3 class="title">{{ "account_page.main" | translate}}</h3>
+
+      <div class="info">
+
+        <ion-item lines="none" button="true" (click)="toAddress()">
+          <div class="image" slot="start">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/map.svg" />
+          </div>
+          <ion-label>{{ "account_page.address" | translate}}</ion-label>
+          <ion-label slot="end">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/arrow.svg" alt="">
+          </ion-label>
+        </ion-item>
+
+        <ion-item lines="none" button="true" (click)="toFav()">
+          <div class="image" slot="start">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/fav.svg" />
+          </div>
+          <ion-label>{{ "account_page.favorite" | translate}}</ion-label>
+          <ion-label slot="end">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/arrow.svg" alt="">
+          </ion-label>
+        </ion-item>
+
+        <ion-item lines="none" button="true">
+          <div class="image" slot="start">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/history.svg" />
+          </div>
+          <ion-label>{{"account_page.viewd"| translate}}</ion-label>
+          <ion-label slot="end">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/arrow.svg" alt="">
+          </ion-label>
+        </ion-item>
+
+      </div>
+
+
+      <h3 class="title">{{"account_page.other"| translate}}</h3>
+
+      <div class="info">
+
+        <ion-item lines="none" button="true" (click)="popOver($event)">
+          <div class="image" slot="start">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/Language.svg" />
+          </div>
+          <ion-label>{{"account_page.lang"| translate}} : {{langName}}</ion-label>
+          <ion-label slot="end">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/arrow.svg" alt="">
+          </ion-label>
+        </ion-item>
+
+        <ion-item lines="none" button="true" (click)="popOver($event)">
+          <div class="image" slot="start">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/rating.svg" />
+          </div>
+          <ion-label>{{ "account_page.rate_app" | translate}}</ion-label>
+          <ion-label slot="end">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/arrow.svg" alt="">
+          </ion-label>
+        </ion-item>
+
+        <ion-item lines="none" button="true" (click)="contact()">
+          <div class="image" slot="start">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/connect.svg" />
+          </div>
+          <ion-label>{{ "account_page.contact_us" | translate}}</ion-label>
+          <ion-label slot="end">
+            <img src="../../../assets/Icon&Svg/6.profile/svg/arrow.svg" alt="">
+          </ion-label>
+        </ion-item>
+
+      </div>
+
+      <ion-button class="logOut" expand="block" fill="clear">
+        {{ "account_page.logout" | translate}} </ion-button>
+    </div>
+
+
+  </ion-content>

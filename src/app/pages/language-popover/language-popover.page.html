@@ -1,0 +1,9 @@
+<ion-list>
+
+  <ion-item button *ngFor="let lang of languages" (click)="dismiss(lang.value)" detail="false">
+    <ion-label> {{lang.text}} </ion-label>
+    <ion-icon slot="end" *ngIf="lang.value == sellected" name="checkmark"></ion-icon>
+  </ion-item>
+
+
+</ion-list>

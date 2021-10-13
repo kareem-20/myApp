@@ -1,0 +1,81 @@
+{
+  "tabs": {
+    "home": "Home",
+    "category": "Categories",
+    "orders": "Orders",
+    "favorite": "Favorite",
+    "account": "Account"
+  },
+  "sign": {
+    "head": "Welcome to the Speedoo app",
+    "login": "Login",
+    "sign_up": "sign up",
+    "phone": "phone number",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "forget_password": "Forgot your password ?",
+    "or_with": "Or With",
+    "google": "Google",
+    "facebook": "FaceBook",
+    "skip": "skip"
+  },
+  "account_page": {
+    "title": "Account",
+    "hello": "Hi",
+    "address": "Delivery Addresses",
+    "favorite": "Favorite Products",
+    "main": "Account activities",
+    "other": "Other",
+    "rate_app": "Rate App",
+    "contact_us": "Contact Us",
+    "logout": "Log Out",
+    "viewd": "Products You've Seen",
+    "lang": "language"
+  },
+  "favorite_page": {
+    "title": "Favorite Products",
+    "empty": {
+      "h": "There are no favorites",
+      "p": "To add your favorite products",
+      "btn": "Browse offers"
+    }
+  },
+  "orders_page": {
+    "title": "Orders",
+    "current": "current",
+    "Previous": "Previous",
+    "empty": {
+      "h": "No Orders sent",
+      "p": "You can browse more products and complete a new order",
+      "btn": "Browse offers"
+    },
+    "order": "orders",
+    "status": "status",
+    "num_prod": "number of products",
+    "total_price": "Total Price",
+    "more_detail": "More Details"
+  },
+  "home_page": {
+    "title": "Spedoo",
+    "search": "Search on tools and accessories",
+    "more": "More",
+    "recently_added": "recently added",
+    "offers": "Offers"
+  },
+  "cart_page": {
+    "title": "Shopping Cart",
+    "confirm": "Confirm Order",
+    "product_price": "product price",
+    "delivery": "Delivery",
+    "total_price": "Total Price"
+  },
+  "confirm_page": {
+    "title": "Confirm Order",
+    "overview": "Overview",
+    "address": "Delivery Address",
+    "payment": "payment way",
+    "patment_msg": "select payment way",
+    "on_delivery": "Paiement when recieving"
+  },
+  "change": "Change"
+}
